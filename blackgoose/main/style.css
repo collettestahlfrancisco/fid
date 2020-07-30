@@ -8,6 +8,19 @@ body {
 background: #f0ffde;
 }
 
+.circle {
+  width: 40rem;
+  height: 40rem;
+  border: none;
+  border-radius: 40px 10px;
+  background-image: url('http://i64.tinypic.com/8ygiae.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 10px 5px 5px #c2c2a3;
+}
+
+
 h1 {
   color: #f0ffde;
 }
