@@ -8,18 +8,18 @@ body {
 background: #f0ffde;
 }
 
+}
+
 .circle {
   width: 40rem;
   height: 40rem;
-  border: none;
-  border-radius: 40px 10px;
-  background-image: url('https://i.ibb.co/cYZZwPq/blackgoose.png');
+  border: groove 1rem #c2c2a3;
+  border-radius: 2rem;
+  background-image: url('https://i.ibb.co/dLKmhmg/promo.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: 10px 5px 5px #c2c2a3;
+  background-position: top center;
 }
-
 
 h1 {
   color: #02b87e;
