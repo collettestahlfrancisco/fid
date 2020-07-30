@@ -19,29 +19,34 @@ background-attachment: fixed;
   margin-right: auto;
   width: 50%;
 }
+
+<style>
+body {margin:0;}
+
 .icon-bar {
-  width: 100%; /* Full-width */
-  background-color: #555; /* Dark-grey background */
-  overflow: auto; /* Overflow due to float */
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
 .icon-bar a {
-  float: left; /* Float links side by side */
-  text-align: center; /* Center-align text */
-  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 12px 0; /* Some top and bottom padding */
-  transition: all 0.3s ease; /* Add transition for hover effects */
-  color: white; /* White text color */
-  font-size: 36px; /* Increased font size */
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
 }
 
 .icon-bar a:hover {
-  background-color: #a6ffef; /* Add a hover color */
+  background-color: #000;
 }
 
 .active {
-  background-color: #00735e; /* Add an active/current color */
+  background-color: #4CAF50;
 }
+</style>
 
 h1 {
   color: #ffffff;
@@ -78,25 +83,6 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-.box {
-  display: inline-block;
-  width: 41rem;
-  height: 69vh;
-  background: #3d3d29;
-  padding: 20px;
-  box-shadow: 10px 5px 5px #c2c2a3;
-
-}
-
-.special {
-  display: inline-block;
-  width: 41rem;
-  height: 69vh;
-  background: #4d004d;
-  padding: 20px;
-  box-shadow: 10px 5px 5px #cc00cc;
 }
 
 header, footer {
