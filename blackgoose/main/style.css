@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 body{
-   font-family: 'Encode Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 body {
-background: #f0ffde;
+background-image: linear-gradient(rgba(255, 255, 255, 0.65), transparent), url(https://i.ibb.co/3kNFN8V/restaurant2.jpg);
+background-attachment: fixed;
 }
 
+.container {
+  height: 100vh;
 }
 
 .circle {
@@ -18,25 +21,68 @@ background: #f0ffde;
   background-image: url('https://i.ibb.co/cYZZwPq/blackgoose.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center center;
 }
 
 h1 {
-  color: #02b87e;
+  color: #4d004d;
 }
 
 h2 {
-  color: #097807;
+  color: #cc00cc;
 }
 
 h3 {
-  color: #D81B60;
+  color: #c2c2a3;
+}
+
+h4 {
+  color: #4d004d;
 }
 
 p {
   font-size: 2rem;
 }
 
+
+
+
+ body {
+  font-size: 2rem;
+  font-family: 'Aclonica', sans-serif;
+  color: #c2c2a3;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box {
+  display: inline-block;
+  width: 41rem;
+  height: 69vh;
+  background: #3d3d29;
+  padding: 20px;
+  box-shadow: 10px 5px 5px #c2c2a3;
+
+}
+
+.special {
+  display: inline-block;
+  width: 41rem;
+  height: 69vh;
+  background: #4d004d;
+  padding: 20px;
+  box-shadow: 10px 5px 5px #cc00cc;
+}
+
 header, footer {
-  background:#02b87e;
+  background:#ffd4ff ;
+}
+
+  background:#cc00cc ;
 }
