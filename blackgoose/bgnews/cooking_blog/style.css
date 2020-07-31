@@ -47,10 +47,6 @@ background-attachment: fixed;
   color: white;
 }
 
-h1 {
-  color: #ffffff;
-}
-
 h2 {
   color: #00735e;
 }
@@ -66,6 +62,8 @@ h4 {
 p {
   font-size: 2rem;
 }
+
+
 
 
 header, footer {
