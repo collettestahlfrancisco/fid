@@ -5,7 +5,7 @@ body{
 }
 
 body {
-background-image: linear-gradient(rgba(255, 255, 255, 0.65), transparent), url(https://i.ibb.co/tMgVg3B/lake.jpg);
+background-image: linear-gradient(rgba(255, 255, 255, 0.65), transparent), url(https://i.ibb.co/QmCP1FZ/cleveland.jpg);
 background-attachment: fixed;
 }
 
@@ -21,14 +21,14 @@ background-attachment: fixed;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #6e6566;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -37,13 +37,13 @@ background-attachment: fixed;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #defff9;
+  background-color: #fcdee3;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav .active {
-  background-color: #00735e;
+  background-color: #fa9dad;
   color: white;
 }
 
