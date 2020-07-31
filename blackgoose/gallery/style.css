@@ -1,0 +1,72 @@
+  
+<link ('https://fonts.googleapis.com/css?family=Revalia');
+
+body{
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+background-image: linear-gradient(rgba(255, 255, 255, 0.65), transparent), url(https://i.ibb.co/hsdQFJV/food.jpg);
+background-attachment: fixed;
+}
+
+.container {
+  height: 100vh;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #defff9;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav .active {
+  background-color: #00735e;
+  color: white;
+}
+
+h2 {
+  color: #00735e;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+h4 {
+  color: #00735e;
+}
+
+p {
+  font-size: 2rem;
+}
+
+
+
+
+header, footer {
+  background:  url(image.jpg) no-repeat;
+}
