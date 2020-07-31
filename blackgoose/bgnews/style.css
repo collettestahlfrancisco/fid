@@ -5,7 +5,7 @@ body{
 }
 
 body {
-background-image: linear-gradient(rgba(255, 255, 255, 0.65), transparent), url(https://i.ibb.co/R3d9PN9/news.jpg);
+background-image: linear-gradient(rgba(255, 255, 255, 0.65), transparent), url(https://i.ibb.co/3kNFN8V/restaurant2.jpg);
 background-attachment: fixed;
 }
 
@@ -48,7 +48,7 @@ background-attachment: fixed;
 }
 
 h1 {
-  color: #pink;
+  color: #ffffff;
 }
 
 h2 {
@@ -69,6 +69,12 @@ p {
 
 
 
+
+ body {
+  font-size: 2rem;
+  font-family: 'Aclonica', sans-serif;
+  color: #c2c2a3;
+}
 
 header, footer {
   background:  url(image.jpg) no-repeat;
