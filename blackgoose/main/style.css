@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Revalia');
+<link ('https://fonts.googleapis.com/css?family=Revalia');
 
 body{
   font-family: 'Cabin', sans-serif;
@@ -20,33 +20,6 @@ background-attachment: fixed;
   width: 50%;
 }
 
-<style>
-body {margin:0;}
-
-.icon-bar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-
-.icon-bar a {
-  float: left;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-</style>
 
 h1 {
   color: #ffffff;
@@ -77,17 +50,6 @@ p {
   color: #c2c2a3;
 }
 
-
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 header, footer {
-  background: #ffffff;
-}
-
-  background:#128743 ;
+  background:  url(image.jpg) no-repeat;
 }
