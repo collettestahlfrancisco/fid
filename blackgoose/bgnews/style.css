@@ -70,12 +70,6 @@ p {
 
 
 
- body {
-  font-size: 2rem;
-  font-family: 'Aclonica', sans-serif;
-  color: #c2c2a3;
-}
-
 header, footer {
   background:  url(image.jpg) no-repeat;
 }
